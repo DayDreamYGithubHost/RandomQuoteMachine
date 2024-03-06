@@ -1,0 +1,49 @@
+body {
+  background-color: yellow;
+}
+
+#buttonbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10%;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#textbox {
+  background-color: white;
+  text-align: center;
+  border-radius: 10%;
+}
+
+p {
+  padding: 5%;
+  font-family: "Pacifico", cursive;
+}
+
+.buttons a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1da1f2;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buttons a.button:hover {
+  background-color: #0d8ecf;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
